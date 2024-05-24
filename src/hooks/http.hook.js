@@ -14,7 +14,7 @@ export const useHttp = () => {
 				if (!response.ok) {
 					throw new Error(`Could not fetch ${url}, status: ${response.status}`)
 				}
-				console.log('1')
+
 				const data = await response.json()
 
 				setLoading(false)

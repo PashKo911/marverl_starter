@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
+import { v4 as uuidv4 } from 'uuid'
 
 import Spinner from '../spinner/Spinner'
 import ErrorMessage from '../errorMessage/ErrorMessage'
@@ -20,7 +21,6 @@ const CharList = (props) => {
 
 	const onRequest = (offset, initial) => {
 		initial ? setNewItemLoading(false) : setNewItemLoading(true)
-
 		getAllCharacters(offset).then(onCharListLoaded)
 	}
 
@@ -29,7 +29,6 @@ const CharList = (props) => {
 		if (newCharList.length < 9) {
 			ended = true
 		}
-
 		setCharList((charList) => [...charList, ...newCharList])
 		setNewItemLoading((newItemLoading) => false)
 		setOffset((offset) => offset + 9)
@@ -38,10 +37,10 @@ const CharList = (props) => {
 
 	const itemRefs = useRef([])
 
-	const focusOnItem = (i) => {
+	const focusOnItem = (id) => {
 		itemRefs.current.forEach((item) => item.classList.remove('char__item_selected'))
-		itemRefs.current[i].classList.add('char__item_selected')
-		itemRefs.current[i].focus()
+		itemRefs.current[id].classList.add('char__item_selected')
+		itemRefs.current[id].focus()
 	}
 
 	function renderItems(arr) {
@@ -56,7 +55,7 @@ const CharList = (props) => {
 					className="char__item"
 					tabIndex={0}
 					ref={(el) => (itemRefs.current[i] = el)}
-					key={item.id}
+					key={uuidv4()}
 					onClick={() => {
 						props.onCharSelected(item.id)
 						focusOnItem(i)
@@ -72,12 +71,11 @@ const CharList = (props) => {
 				</li>
 			)
 		})
-		// А эта конструкция вынесена для центровки спиннера/ошибки
+
 		return <ul className="char__grid">{items}</ul>
 	}
 
 	const items = renderItems(charList)
-
 	const errorMessage = error ? <ErrorMessage /> : null
 	const spinner = loading && !newItemLoading ? <Spinner /> : null
 
@@ -96,6 +94,7 @@ const CharList = (props) => {
 		</div>
 	)
 }
+
 CharList.propTypes = {
 	onCharSelected: PropTypes.func.isRequired,
 }
