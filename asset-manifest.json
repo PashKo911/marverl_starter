@@ -1,16 +1,44 @@
 {
   "files": {
-    "main.css": "/marverl_starter/static/css/main.9399d3bb.css",
-    "main.js": "/marverl_starter/static/js/main.33d8a966.js",
+    "main.css": "/marverl_starter/static/css/main.79becdea.css",
+    "main.js": "/marverl_starter/static/js/main.ad695372.js",
+    "static/js/825.4fd67e8c.chunk.js": "/marverl_starter/static/js/825.4fd67e8c.chunk.js",
+    "static/css/224.ea0f2318.chunk.css": "/marverl_starter/static/css/224.ea0f2318.chunk.css",
+    "static/js/224.2a6b689e.chunk.js": "/marverl_starter/static/js/224.2a6b689e.chunk.js",
+    "static/css/682.412c35cf.chunk.css": "/marverl_starter/static/css/682.412c35cf.chunk.css",
+    "static/js/682.33de2c51.chunk.js": "/marverl_starter/static/js/682.33de2c51.chunk.js",
+    "static/css/97.0e101e14.chunk.css": "/marverl_starter/static/css/97.0e101e14.chunk.css",
+    "static/js/97.0afa88b9.chunk.js": "/marverl_starter/static/js/97.0afa88b9.chunk.js",
+    "static/css/828.4ec4f00f.chunk.css": "/marverl_starter/static/css/828.4ec4f00f.chunk.css",
+    "static/js/828.3b1b6ba5.chunk.js": "/marverl_starter/static/js/828.3b1b6ba5.chunk.js",
+    "static/css/156.305644b7.chunk.css": "/marverl_starter/static/css/156.305644b7.chunk.css",
+    "static/js/156.7b21625a.chunk.js": "/marverl_starter/static/js/156.7b21625a.chunk.js",
+    "static/js/591.0e804605.chunk.js": "/marverl_starter/static/js/591.0e804605.chunk.js",
+    "static/js/317.27d0c6ea.chunk.js": "/marverl_starter/static/js/317.27d0c6ea.chunk.js",
     "static/media/vision.png": "/marverl_starter/static/media/vision.067d4ae1936d64a577ce.png",
     "static/media/mjolnir.png": "/marverl_starter/static/media/mjolnir.61f31e1809f12183a524.png",
+    "static/media/Avengers.png": "/marverl_starter/static/media/Avengers.4065c8f9c94e3d8b039a.png",
     "static/media/error.gif": "/marverl_starter/static/media/error.42292aa12b6bc303ce99.gif",
+    "static/media/Avengers_logo.png": "/marverl_starter/static/media/Avengers_logo.9eaf219344d83362e830.png",
     "index.html": "/marverl_starter/index.html",
-    "main.9399d3bb.css.map": "/marverl_starter/static/css/main.9399d3bb.css.map",
-    "main.33d8a966.js.map": "/marverl_starter/static/js/main.33d8a966.js.map"
+    "main.79becdea.css.map": "/marverl_starter/static/css/main.79becdea.css.map",
+    "main.ad695372.js.map": "/marverl_starter/static/js/main.ad695372.js.map",
+    "825.4fd67e8c.chunk.js.map": "/marverl_starter/static/js/825.4fd67e8c.chunk.js.map",
+    "224.ea0f2318.chunk.css.map": "/marverl_starter/static/css/224.ea0f2318.chunk.css.map",
+    "224.2a6b689e.chunk.js.map": "/marverl_starter/static/js/224.2a6b689e.chunk.js.map",
+    "682.412c35cf.chunk.css.map": "/marverl_starter/static/css/682.412c35cf.chunk.css.map",
+    "682.33de2c51.chunk.js.map": "/marverl_starter/static/js/682.33de2c51.chunk.js.map",
+    "97.0e101e14.chunk.css.map": "/marverl_starter/static/css/97.0e101e14.chunk.css.map",
+    "97.0afa88b9.chunk.js.map": "/marverl_starter/static/js/97.0afa88b9.chunk.js.map",
+    "828.4ec4f00f.chunk.css.map": "/marverl_starter/static/css/828.4ec4f00f.chunk.css.map",
+    "828.3b1b6ba5.chunk.js.map": "/marverl_starter/static/js/828.3b1b6ba5.chunk.js.map",
+    "156.305644b7.chunk.css.map": "/marverl_starter/static/css/156.305644b7.chunk.css.map",
+    "156.7b21625a.chunk.js.map": "/marverl_starter/static/js/156.7b21625a.chunk.js.map",
+    "591.0e804605.chunk.js.map": "/marverl_starter/static/js/591.0e804605.chunk.js.map",
+    "317.27d0c6ea.chunk.js.map": "/marverl_starter/static/js/317.27d0c6ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9399d3bb.css",
-    "static/js/main.33d8a966.js"
+    "static/css/main.79becdea.css",
+    "static/js/main.ad695372.js"
   ]
 }
